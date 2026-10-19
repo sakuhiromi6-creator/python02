@@ -33,7 +33,7 @@ def test_watering_system() -> None:
         print(".. ending tests and returning to main")
     finally:
         print("Closing watering system")
-    
+
     print()
     print("Testing invalid plants...")
     print("Opening watering system")
@@ -47,7 +47,6 @@ def test_watering_system() -> None:
         print("Closing watering system")
     print()
     print("Cleanup always happens, even with errors!")
-
 
 
 test_watering_system()
